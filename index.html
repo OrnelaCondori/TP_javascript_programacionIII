@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Trabajo Práctico JavaScript</h1>
+
+    <h2>1. Cambiar de color</h2>
+    <p class="parrafo">Primer párrafo</p>
+    <p class="parrafo">segundo párrafo</p>
+    <p class="parrafo">Tercer párrafo</p>
+    <button id="cambiarColor">Cambiar a color azul</button>
+
+    <h2>2. Formulario con alerta</h2>
+    <form onsubmit="event.preventDefault(); mostrarAlerta();">
+        <label for="campoTexto">Ingresa un texto:</label>
+        <input type="text" id="campoTexto" name="campoTexto" required>
+        <button type="submit">Mostrar Alerta</button>
+    </form>
+
+    <h2>3. Eventos en DOM</h2>
+    <ul>
+        <li class="elementosLista">Elemento 1</li>
+        <li class="elementosLista">Elemento 2</li>
+        <li class="elementosLista">Elemento 3</li>
+    </ul>
+
+    <h2>4. Campo de texto y botones</h2>
+    <input type="text" id="campoTextohabilitar" placeholder="Escribi aca...">
+    <button id="deshabilitado">Deshabilitar campo</button>
+    <button id="habilitado">Habilitar campo</button>
+
+    <h2>5. LocalStorage </h2>        
+    <label for="text">Correo Electronico: </label>
+    <input type="email" id="campoEmail" name="campoEmail" placeholder="example@gmail.com">
+    <div id="correoAlmacenado"></div>
+    <button id="guardar">Guardar correo</button>
+    <button id="eliminar">Eliminar Correo Guadado</button>
+    
+
+    <!---conectar con javaScript-->
+    <script src="main.js" defer></script>
+</body>
+</html>

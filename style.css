@@ -1,0 +1,7 @@
+#campoTextohabilitar:disabled {
+  background-color: #f0f0f0; /* Cambia el color de fondo para indicar que está deshabilitado */
+  cursor: not-allowed; /* Cambia el cursor a una señal de que no está permitido */
+}
+button:disabled {
+  cursor: not-allowed; /* Cambia el cursor a una señal de que no está permitido para el botón deshabilitado */
+}
